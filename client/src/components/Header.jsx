@@ -17,8 +17,6 @@ function Header() {
           <li><Link to="/contact" className="nav-link">Contact</Link></li>
         </ul>
       </nav>
-      <p>Empowering individuals through the UN’s CRPD and evidence-based accessibility solutions</p>
-      <Link to="/about" className="cta-button">Learn More</Link>
     </header>
   );
 }
