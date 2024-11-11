@@ -1,0 +1,62 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './styles/LandingPage.css';
+
+function LandingPage() {
+  return (
+    <div className="landing-page">
+      <header className="header">
+        <h1>Digital Accessibility & Well-Being for Persons with Disabilities</h1>
+        <p>Empowering individuals through the UN’s CRPD and evidence-based accessibility solutions</p>
+      </header>
+      
+      <main className="main-content">
+        <section className="crpd-section">
+          <h2>About the CRPD</h2>
+          <p>
+            The United Nations Convention on the Rights of Persons with Disabilities (CRPD) champions the rights of individuals with disabilities, ensuring their full and equal participation in society.
+          </p>
+          <Link to="/about" className="cta-button">Learn More</Link>
+        </section>
+
+        <section className="thesis-section">
+          <h2>My Graduation Thesis</h2>
+          <p>
+            My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, competence, and self-actualization, this study sheds light on how accessible technology can lead to improved life quality.
+          </p>
+          <Link to="/thesis" className="cta-button">Read More</Link>
+        </section>
+        
+        <section className="principles-section">
+          <h2>Core Principles of Accessibility</h2>
+          <div className="principles-list">
+            <div className="principle">
+              <h3>Perceivable</h3>
+              <p>Ensuring all content can be perceived through sight, sound, or touch.</p>
+            </div>
+            <div className="principle">
+              <h3>Operable</h3>
+              <p>Ensuring users can easily navigate and interact using multiple methods.</p>
+            </div>
+            <div className="principle">
+              <h3>Understandable</h3>
+              <p>Making content clear and user-friendly for all audiences.</p>
+            </div>
+            <div className="principle">
+              <h3>Robust</h3>
+              <p>Designing compatibility with various assistive technologies.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section className="contact-section">
+          <h2>Get Involved</h2>
+          <p>Join us in advocating for accessibility and the rights of persons with disabilities.</p>
+          <Link to="/contact" className="cta-button">Contact Us</Link>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+export default LandingPage;
