@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <header className="header">
-        <h1>Digital Accessibility & Well-Being for Persons with Disabilities</h1>
+        <h1>Human Rights,Accessibility & Well-Being for Persons with Disabilities, in a Digital Era</h1>
         <p>Empowering individuals through the UN’s CRPD and evidence-based accessibility solutions</p>
       </header>
       
@@ -22,7 +22,7 @@ function LandingPage() {
         <section className="thesis-section">
           <h2>My Graduation Thesis</h2>
           <p>
-            My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, competence, and self-actualization, this study sheds light on how accessible technology can lead to improved life quality.
+            My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, self-determination, and self-actualizatio. This preliminary study sheds light on how accessible technology can lead to improved life quality and well being for persons with disabilities.
           </p>
           <Link to="/thesis" className="cta-button">Read More</Link>
         </section>
