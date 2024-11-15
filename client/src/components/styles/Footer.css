@@ -1,45 +1,52 @@
-/* src/components/Footer.css */
-
 .footer {
-    background-color: #243a73; /* Deep Navy Blue */
-    color: white;
-    padding: 2rem 0;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-  }
-  
-  .footer p {
-    margin: 0;
-    font-size: 1rem;
-    color: white;
-  }
-  
-  .footer-nav {
-    list-style: none;
-    padding: 0;
-    margin-top: 1rem;
-  }
-  
-  .footer-nav li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  .footer-nav li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  .footer-nav li a:hover {
-    text-decoration: underline;
-  }
-  
+  background-color: #243a73; /* Deep Navy Blue */
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.footer-nav li {
+  display: inline; /* Ensure items remain inline */
+  margin-right: 15px;
+}
+
+.footer-nav li:last-child {
+  margin-right: 0; /* Remove extra space after the last item */
+}
+
+.footer-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5; /* Align icon and text */
+}
+
+.footer-nav li a svg {
+  vertical-align: middle; /* Align the icon with text */
+  margin-right: 5px; /* Add spacing between icon and text */
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
