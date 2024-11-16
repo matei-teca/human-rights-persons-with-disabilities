@@ -1,9 +1,9 @@
 # human-rights-persons-with-disabilities
 
 ```bash
-git clone <br/>
-cd ./client <br/>
-npm install <br/>
+git clone
+cd ./client
+npm install
 npm run dev
 ```
 
