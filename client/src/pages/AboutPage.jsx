@@ -16,12 +16,12 @@ function AboutPage() {
         <section className="crpd-details">
           <h2>What is the CRPD?</h2>
           <p>
-            The United Nations Convention on the Rights of Persons with Disabilities (CRPD) is an international treaty 
-            that protects the rights of persons with physical, sensory, intellectual, and mental health disabilities. 
+            The United Nations Convention on the Rights of Persons with Disabilities (CRPD) is an international treaty
+            that protects the rights of persons with physical, sensory, intellectual, and mental health disabilities.
             Its goal is to ensure full participation, equality, and dignity for everyone, regardless of their abilities.
           </p>
           <p>
-            Mental health disabilities are often overlooked, but the CRPD explicitly recognizes them, emphasizing the need for accessible mental health care, 
+            Mental health disabilities are often overlooked, but the CRPD explicitly recognizes them, emphasizing the need for accessible mental health care,
             non-discrimination, and societal acceptance.
           </p>
         </section>
@@ -52,7 +52,14 @@ function AboutPage() {
           <p>
             Discover how the CRPD is implemented worldwide and how its principles support individuals with both visible and invisible disabilities.
           </p>
-          <Link to="/thesis" className="cta-button">View Thesis</Link>
+          <a
+            href="https://social.desa.un.org/issues/disability/crpd/article-1-purpose"
+            className="cta-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View More
+          </a>
         </section>
       </main>
     </div>
