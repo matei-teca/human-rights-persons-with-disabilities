@@ -7,7 +7,7 @@ body {
   
   .landing-page {
     display: flex;
-    flex-direction: column;q
+    flex-direction: column;
     padding: 2rem;
     text-align: center;
   }
