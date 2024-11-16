@@ -9,7 +9,7 @@ function LandingPage() {
         <h1>Human Rights, Accessibility & Well-Being for Persons with Disabilities, in a Digital Era</h1>
         <p>Empowering individuals through the UN’s CRPD and evidence-based accessibility solutions</p>
       </header>
-      
+
       <main className="main-content">
         <section className="crpd-section">
           <h2>About the CRPD</h2>
@@ -22,11 +22,18 @@ function LandingPage() {
         <section className="thesis-section">
           <h2>My Graduation Thesis</h2>
           <p>
-            My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, self-determination, and self-actualizatio. This preliminary study sheds light on how accessible technology can lead to improved life quality and well being for persons with disabilities.
+            My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, self-determination, and self-actualization, this preliminary study sheds light on how accessible technology can lead to improved life quality and well-being for persons with disabilities.
           </p>
-          <Link to="/thesis" className="cta-button">Read More</Link>
+          <a
+            href="https://docs.google.com/document/d/1OEO2MFaIeFb5on6tqwy_pRSWdIf3_ICR/edit?usp=sharing&ouid=106213293348821545340&rtpof=true&sd=true"
+            className="cta-button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Read More
+          </a>
         </section>
-        
+
         <section className="principles-section">
           <h2>Core Principles of Accessibility</h2>
           <div className="principles-list">
@@ -48,7 +55,7 @@ function LandingPage() {
             </div>
           </div>
         </section>
-        
+
         <section className="contact-section">
           <h2>Get Involved</h2>
           <p>Join us in advocating for accessibility and the rights of persons with disabilities.</p>

@@ -27,12 +27,14 @@ function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink
-              to="/thesis"
-              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            <a
+              href="https://docs.google.com/document/d/1OEO2MFaIeFb5on6tqwy_pRSWdIf3_ICR/edit?usp=sharing&ouid=106213293348821545340&rtpof=true&sd=true"
+              className="nav-link"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Thesis
-            </NavLink>
+            </a>
           </li>
           <li>
             <NavLink
