@@ -7,4 +7,4 @@ npm install
 npm run dev
 ```
 
-![screencapture-localhost-5173-2024-11-16-18_48_21](https://github.com/user-attachments/assets/40abccfe-ddbd-420a-be8e-be93a65b9c11)
+![screencapture-localhost-5173-2024-11-16-20_22_40](https://github.com/user-attachments/assets/9c0b7b62-db9e-483f-93ca-139ace07994f)
