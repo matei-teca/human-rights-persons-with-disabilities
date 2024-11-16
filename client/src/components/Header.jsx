@@ -23,18 +23,16 @@ function Header() {
               to="/about"
               className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
             >
-              About
+              CRPD
             </NavLink>
           </li>
           <li>
-            <a
-              href="https://docs.google.com/document/d/1OEO2MFaIeFb5on6tqwy_pRSWdIf3_ICR/edit?usp=sharing&ouid=106213293348821545340&rtpof=true&sd=true"
-              className="nav-link"
-              target="_blank"
-              rel="noopener noreferrer"
+            <NavLink
+              to="/thesis"
+              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
             >
               Thesis
-            </a>
+            </NavLink>
           </li>
           <li>
             <NavLink

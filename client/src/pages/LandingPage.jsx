@@ -20,7 +20,7 @@ function LandingPage() {
         </section>
 
         <section className="thesis-section">
-          <h2>My Graduation Thesis</h2>
+          <h2>Graduation Thesis: preliminary study on digital accessibility</h2>
           <p>
             My research examines the impact of digital accessibility on the well-being of persons with disabilities. By focusing on core needs like autonomy, self-determination, and self-actualization, this preliminary study sheds light on how accessible technology can lead to improved life quality and well-being for persons with disabilities.
           </p>
