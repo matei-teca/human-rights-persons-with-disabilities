@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import AboutPage from './pages/AboutPage';
 // import ThesisPage from './components/ThesisPage';
-// import ContactPage from './components/ContactPage';
+import ContactPage from './pages/ContactPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -15,8 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/about" element={<AboutPage />} />
-          {/* <Route path="/thesis" element={<ThesisPage />} />
-          <Route path="/contact" element={<ContactPage />} /> */}
+          {/* <Route path="/thesis" element={<ThesisPage />} /> */}
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </div>
