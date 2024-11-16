@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     color: #4a4a4a;
     background-color: #d6efed; /* Soft Seafoam Green background */
+    width: 100%;
   }
   
   .landing-page {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;q
     padding: 2rem;
     text-align: center;
   }
