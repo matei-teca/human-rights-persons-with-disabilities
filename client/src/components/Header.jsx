@@ -1,6 +1,5 @@
-// src/components/Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './styles/Header.css';
 
 function Header() {
@@ -11,10 +10,38 @@ function Header() {
       </div>
       <nav className="nav">
         <ul>
-          <li><Link to="/" className="nav-link">Home</Link></li>
-          <li><Link to="/about" className="nav-link">About</Link></li>
-          <li><Link to="/thesis" className="nav-link">Thesis</Link></li>
-          <li><Link to="/contact" className="nav-link">Contact</Link></li>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            >
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/thesis"
+              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            >
+              Thesis
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
+            >
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
