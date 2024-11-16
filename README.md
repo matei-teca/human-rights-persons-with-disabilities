@@ -1,4 +1,4 @@
-# human-rights-disabilities
+# human-rights-persons-with-disabilities
 
 git clone <br/>
 cd client <br/>
