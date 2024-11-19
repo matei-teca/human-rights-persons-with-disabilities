@@ -6,7 +6,7 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <header className="header">
-        <h1>Human Rights, Accessibility & Well-Being for Persons with Disabilities, in a Digital Era</h1>
+        <h1>Human Rights, Accessibility & Well-Being <br/> for Persons with Disabilities, in a Digital Era</h1>
         <p>Empowering individuals through the UN’s CRPD and evidence-based accessibility solutions</p>
       </header>
 
