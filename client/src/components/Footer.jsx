@@ -12,7 +12,7 @@ function Footer() {
         <nav>
           <ul className="footer-nav">
             <li><Link to="/"><FontAwesomeIcon icon={faHome} /> Home</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li><Link to="/about-crpd">CRPD</Link></li>
             <li><Link to="/thesis">Thesis</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>

@@ -20,7 +20,7 @@ function Header() {
           </li>
           <li>
             <NavLink
-              to="/about"
+              to="/about-crpd"
               className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}
             >
               CRPD

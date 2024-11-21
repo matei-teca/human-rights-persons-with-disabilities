@@ -16,7 +16,7 @@ function LandingPage() {
           <p>
             The United Nations Convention on the Rights of Persons with Disabilities (CRPD) champions the rights of individuals with disabilities, ensuring their full and equal participation in society.
           </p>
-          <Link to="/about" className="cta-button">Learn More</Link>
+          <Link to="/about-crpd" className="cta-button">Learn More</Link>
         </section>
 
         <section className="thesis-section">

@@ -1,20 +1,20 @@
 import React from 'react';
-import './styles/AboutPage.css';
+import './styles/AboutCrpdPage.css';
 import './styles/LandingPage.css';
 
-function AboutPage() {
+function AboutCrpdPage() {
   return (
     <div className="landing-page">
-      <header className="header">
-        <h1>About the UN’s Convention on the Rights of Persons with Disabilities (CRPD)</h1>
+      <header className="header" role="banner">
+        <h1>About the UN’s Convention on <br/>the Rights of Persons with Disabilities (CRPD)</h1>
         <p>
           Promoting equality, dignity, and inclusion for all persons with disabilities, including those with mental health challenges.
         </p>
       </header>
 
-      <main className="main-content">
-        <section className="crpd-details">
-          <h2>What is the CRPD?</h2>
+      <main className="main-content" role="main-about-page">
+        <section className="crpd-details" aria-labelledby="what-is-crpd">
+          <h2 id="what-is-crpd">What is the CRPD?</h2>
           <p>
             The United Nations Convention on the Rights of Persons with Disabilities (CRPD) is an international treaty
             that protects the rights of persons with physical, sensory, intellectual, and mental health disabilities.
@@ -26,8 +26,8 @@ function AboutPage() {
           </p>
         </section>
 
-        <section className="crpd-principles">
-          <h2>Core Principles of the CRPD</h2>
+        <section className="crpd-principles" aria-labelledby="core-principles">
+          <h2 id="core-principles">Core Principles of the CRPD</h2>
           <ul className="principles-list">
             <li>Respect for inherent dignity, individual autonomy, and independence of persons.</li>
             <li>Non-discrimination and equality of opportunity for all disabilities, including mental health conditions.</li>
@@ -37,17 +37,17 @@ function AboutPage() {
           </ul>
         </section>
 
-        <section className="mental-health">
+        <section className="mental-health" aria-labelledby="mental-health-disabilities">
           <h2>Mental Health Disabilities</h2>
           <p>
             The CRPD acknowledges the unique challenges faced by individuals with mental health disabilities, including stigma, access to treatment, and social barriers.
-          </p>
+          </p> 
           <p>
             It advocates for inclusive mental health policies, accessible care systems, and community-based support to ensure equal opportunities and improve well-being.
           </p>
         </section>
 
-        <section className="cta-section">
+        <section className="cta-section" aria-labelledby="explore-more">
           <h2>Explore More</h2>
           <p>
             Discover how the CRPD is implemented worldwide and how its principles support individuals with both visible and invisible disabilities.
@@ -66,4 +66,4 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default AboutCrpdPage;
