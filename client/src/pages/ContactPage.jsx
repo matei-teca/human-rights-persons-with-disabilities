@@ -5,23 +5,22 @@ import './styles/LandingPage.css';
 function ContactPage() {
   return (
     <div className="landing-page">
-      <header className="header">
+      <header className="header" role="banner">
         <h1>Contact Us</h1>
         <p>We’re here to help! Reach out with any questions, feedback, or collaboration ideas.</p>
       </header>
 
-      <main className="main-content">
-        <section className="contact-section">
-          <h2>Get in Touch</h2>
-          <p>
-            Whether you’re interested in learning more about our work, collaborating on accessibility projects,
-            or sharing your feedback, we’d love to hear from you.
-          </p>
+      <main className="main-content" role="main">
+        <section className="contact-section" aria-labelledby="get-in-touch">
+          <h2 id="get-in-touch">Get in Touch</h2>
+          <p>We’d love to hear from you.</p>
           <div className="contact-details">
-            <p><strong>Facebook: </strong>
-              <a href="https://www.facebook.com/groups/1103059404549430?_rdc=1&_rdr"
-                target="_blank"
-                rel="noopener noreferrer">Human Rights and International Treaties Society (HRITS, Bucharest Based)</a></p>
+            <p>
+              <strong>Facebook: </strong>
+              <a href="https://www.facebook.com/groups/1103059404549430?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
+                Human Rights and International Treaties Society
+              </a>
+            </p>
             <p>
               <strong>Email: </strong>
               <a
@@ -35,20 +34,18 @@ function ContactPage() {
           </div>
         </section>
 
-        <section className="form-section">
-          <h2>Send Us a Message</h2>
+        <section className="form-section" aria-labelledby="contact-form">
+          <h2 id="contact-form">Send Us a Message</h2>
           <form
             className="contact-form"
             onSubmit={(e) => {
-              e.preventDefault(); // Prevent page refresh
+              e.preventDefault();
               const name = document.getElementById('name').value;
               const email = document.getElementById('email').value;
               const message = document.getElementById('message').value;
 
-              // Create the mailto link
               const mailtoLink = `mailto:matei.facebookgroup.teca@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
-              // Open the mailto link
               window.location.href = mailtoLink;
             }}
           >
