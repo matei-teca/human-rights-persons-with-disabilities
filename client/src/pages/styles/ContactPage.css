@@ -131,6 +131,6 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .contact-form {
-    width: 90%;
+    width: 80%;
   }
 }
