@@ -16,18 +16,18 @@ function ContactPage() {
           <p>We’d love to hear from you.</p>
           <div className="contact-details">
             <p>
-              <strong>Facebook: </strong>
+              Facebook:
               <a href="https://www.facebook.com/groups/1103059404549430?_rdc=1&_rdr" target="_blank" rel="noopener noreferrer">
-                Human Rights and International Treaties Society
+                
+                <strong> Human Rights and International Treaties Society</strong>
               </a>
             </p>
             <p>
-              <strong>Email: </strong>
+              Email: 
               <a
                 href="mailto:matei.facebookgroup.teca@gmail.com"
                 className="email-link"
-              >
-                matei.facebookgroup.teca@gmail.com
+              ><strong> matei.facebookgroup.teca@gmail.com</strong>
               </a>
             </p>
             {/* <p><strong>Phone:</strong> </p> */}

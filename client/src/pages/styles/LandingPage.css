@@ -16,6 +16,12 @@ body {
     margin-bottom: 9rem;
   }
 
+  .landing-page section p {
+    font-size: 1.25rem;
+    color: black;
+  }
+
+
   .header {
     background-color: #243a73; /* Deep Navy Blue */
     color: white;
@@ -52,26 +58,11 @@ body {
     transform: translateY(-5px);
   }
   
-  h2 {
-    color: #243a73; /* Deep Navy Blue */
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  p {
-    color: #4a4a4a;
-    line-height: 1.6;
-    font-size: 1rem;
-  }
-  
   /* Principles section */
-  .principles-section {
-    /* background-color: #91c7b1; Cool Mint */
-  }
   
   .principles-list {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
@@ -114,10 +105,13 @@ body {
   }
   
   /* Contact Section */
-  .contact-section {
-    /* background-color: #91c7b1; Cool Mint */
+  .landing-page .contact-section {
     padding: 2rem;
     border-radius: 10px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    background-color: black; 
+    /* maybe a bit lighter */
   }
   
+  .landing-page .contact-section p {
+    color: white;
+  }
