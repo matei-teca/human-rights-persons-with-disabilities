@@ -47,7 +47,7 @@ function AboutCrpdPage() {
           </p>
         </section>
 
-        <section className="cta-section" aria-labelledby="explore-more">
+        <section className="about-cta-section" aria-labelledby="explore-more">
           <h2>Explore More</h2>
           <p>
             Discover how the CRPD is implemented worldwide and how its principles support individuals with both visible and invisible disabilities.

@@ -91,7 +91,7 @@ p {
 
 .crpd-principles ul li {
     margin-bottom: 0.8rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #d6efed; /* Lightened Seafoam */
 }
 
@@ -102,29 +102,26 @@ p {
     margin-right: 5px;
 }
 
-.cta-section {
+.about-cta-section {
     padding: 1.5rem;
     border-radius: 8px;
     background-color: #243a73; /* Deep Navy Blue */
     text-align: center;
 }
 
-.cta-section h2 {
+.about-cta-section h2 {
     color: #d6efed; /* Lightened Seafoam */
 }
 
-.cta-section p {
+.about-cta-section p {
     margin-bottom: 1rem;
     color: white !important;
 }
 
 /* CTA Button */
-.cta-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 1.5rem;
-    background-color: #d6efed; /* Seafoam Green */
-    color: #243a73; /* Deep Navy */
+.about-cta-section .cta-button {
+    color: white;
+    border: 3px solid black;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
