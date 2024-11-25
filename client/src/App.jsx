@@ -11,7 +11,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Link to="/contact" className="skip-link">
+      <Link to="/contact" className="skip-link" 
+      style= {{position: "absolute", color: "white", zIndex: "1", padding:"10px"}}
+      >
           Skip to Contact Page
         </Link>
         <Header />

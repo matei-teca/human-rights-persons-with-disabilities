@@ -63,7 +63,7 @@ function LandingPage() {
         <section className="contact-section" aria-labelledby="get-involved">
           <h2 id="get-involved">Get Involved</h2>
           <p>Join us in advocating for accessibility and the rights of persons with disabilities.</p>
-          <Link to="/contact" className="cta-button">Contact Us</Link>
+          <Link to="/contact" className="cta-button"><strong>Contact Us</strong></Link>
         </section>
       </main>
     </div>
